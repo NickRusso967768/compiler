@@ -11,6 +11,12 @@ The program processes expressions in three steps:
 2. **Parser** - Checks if the expression follows proper grammar rules and builds a tree
 3. **Evaluator** - Calculates the result by traversing the tree
 
+## How To Run
+1. Cd into project folder: (Example: cd "C:\Users\Owner\OneDrive\Desktop\CSC 220\compiler")
+2. Create a bin folder(If not yet created): mkdir bin
+3. Compile all Files(If already compiled before-Skip this step): javac -d bin *.java ast\*.java
+4. Run the Project: java -cp bin compiler.Compiler
+
 ## Example
 
 Input: `(3 + 2) * 5 - 1`
